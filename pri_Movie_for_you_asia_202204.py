@@ -33,7 +33,7 @@ review_number_xpath =  '//*[@id="reviewTab"]/div/div/div[2]/span/em'
 review_button_xpath = '//*[@id="movieEndTabMenu"]/li[6]/a'                   #review button
 #                      //*[@id="movieEndTabMenu"]/li[6]/a
 your_year = 2017 # 할당받은 연도로 수정하세요.
-for i in range(3, 54): #38
+for i in range(1, 54): #38
     url = 'https://movie.naver.com/movie/sdb/browsing/bmovie.naver?open={}&page={}'.format(your_year, i)
     titles = []
     reviews = []
